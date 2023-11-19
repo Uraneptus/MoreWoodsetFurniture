@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.uraneptus.woodset_furniture.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "refmap": "woodset_furniture.refmap.json",
+  "mixins": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

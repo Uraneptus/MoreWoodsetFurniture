@@ -1,0 +1,6 @@
+// 1.20.1	2023-11-19T03:49:55.8062947	Tags for minecraft:item mod id woodset_furniture
+916c9c2171e1e53b9b17fed944b58e69d55b166e data/cfm/tags/items/bedroom.json
+0a8ff1234a0316af193ee9be47fcd315895b53af data/cfm/tags/items/general.json
+63cacd9935f52e6f737744b8d4d8c4622ee55a81 data/cfm/tags/items/kitchen.json
+af7a7b5c7d4fb9e6500d7e5563121c78e2b04ba3 data/cfm/tags/items/outdoors.json
+b073a61572a5cb61feac3271573814aeb8a61d40 data/cfm/tags/items/storage.json
