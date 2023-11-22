@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "park_bench",
+  "key": {
+    "L": {
+      "item": "minecraft:stripped_bamboo_block"
+    },
+    "P": {
+      "item": "minecraft:bamboo_block"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PPP",
+    "L L"
+  ],
+  "result": {
+    "count": 4,
+    "item": "woodset_furniture:stripped_bamboo_park_bench"
+  },
+  "show_notification": true
+}

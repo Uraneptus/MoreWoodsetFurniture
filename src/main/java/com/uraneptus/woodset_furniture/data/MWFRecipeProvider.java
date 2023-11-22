@@ -21,6 +21,7 @@ public class MWFRecipeProvider extends RecipeProvider {
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
+        //CHERRY
         table(consumer, MWFBlocks.TABLE_CHERRY.get(), Blocks.CHERRY_LOG, Blocks.CHERRY_PLANKS);
         table(consumer, MWFBlocks.TABLE_STRIPPED_CHERRY.get(), Blocks.STRIPPED_CHERRY_LOG, Blocks.CHERRY_LOG);
         chair(consumer, MWFBlocks.CHAIR_CHERRY.get(), Blocks.CHERRY_LOG, Blocks.CHERRY_PLANKS);
@@ -56,6 +57,42 @@ public class MWFRecipeProvider extends RecipeProvider {
         mailBox(consumer, MWFBlocks.MAIL_BOX_CHERRY.get(), MWFBlocks.UPGRADED_FENCE_CHERRY.get());
         mailBox(consumer, MWFBlocks.MAIL_BOX_STRIPPED_CHERRY.get(), MWFBlocks.UPGRADED_FENCE_STRIPPED_CHERRY.get());
         hedge(consumer, MWFBlocks.HEDGE_CHERRY.get(), Blocks.CHERRY_LEAVES);
+
+        //BAMBOO
+        table(consumer, MWFBlocks.TABLE_BAMBOO.get(), Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS);
+        table(consumer, MWFBlocks.TABLE_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK);
+        chair(consumer, MWFBlocks.CHAIR_BAMBOO.get(), Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS);
+        chair(consumer, MWFBlocks.CHAIR_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK);
+        coffeeTable(consumer, MWFBlocks.COFFEE_TABLE_BAMBOO.get(), Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS);
+        coffeeTable(consumer, MWFBlocks.COFFEE_TABLE_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK);
+        cabinet(consumer, MWFBlocks.CABINET_BAMBOO.get(), Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS);
+        cabinet(consumer, MWFBlocks.CABINET_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK);
+        bedsideCabinet(consumer, MWFBlocks.BEDSIDE_CABINET_BAMBOO.get(), Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS);
+        bedsideCabinet(consumer, MWFBlocks.BEDSIDE_CABINET_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK);
+        desk(consumer, MWFBlocks.DESK_BAMBOO.get(), Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS);
+        desk(consumer, MWFBlocks.DESK_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK);
+        deskCabinet(consumer, MWFBlocks.DESK_CABINET_BAMBOO.get(), Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS);
+        deskCabinet(consumer, MWFBlocks.DESK_CABINET_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK);
+        blinds(consumer, MWFBlocks.BLINDS_BAMBOO.get(), Blocks.BAMBOO_BLOCK);
+        blinds(consumer, MWFBlocks.BLINDS_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK);
+        upgradedFence(consumer, MWFBlocks.UPGRADED_FENCE_BAMBOO.get(), Blocks.BAMBOO_BLOCK);
+        upgradedFence(consumer, MWFBlocks.UPGRADED_FENCE_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK);
+        upgradedGate(consumer, MWFBlocks.UPGRADED_GATE_BAMBOO.get(), Blocks.BAMBOO_BLOCK);
+        upgradedGate(consumer, MWFBlocks.UPGRADED_GATE_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK);
+        crate(consumer, MWFBlocks.CRATE_BAMBOO.get(), Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS);
+        crate(consumer, MWFBlocks.CRATE_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK);
+        parkBench(consumer, MWFBlocks.PARK_BENCH_BAMBOO.get(), Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS);
+        parkBench(consumer, MWFBlocks.PARK_BENCH_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK);
+        kitchenCounter(consumer, MWFBlocks.KITCHEN_COUNTER_BAMBOO.get(), Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS);
+        kitchenCounter(consumer, MWFBlocks.KITCHEN_COUNTER_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK);
+        kitchenDrawer(consumer, MWFBlocks.KITCHEN_DRAWER_BAMBOO.get(), Blocks.BAMBOO_BLOCK, Blocks.BAMBOO_PLANKS);
+        kitchenDrawer(consumer, MWFBlocks.KITCHEN_DRAWER_STRIPPED_BAMBOO.get(), Blocks.STRIPPED_BAMBOO_BLOCK, Blocks.BAMBOO_BLOCK);
+        kitchenSink(consumer, MWFBlocks.KITCHEN_SINK_LIGHT_BAMBOO.get(), Blocks.WHITE_CONCRETE, Blocks.BAMBOO_PLANKS);
+        kitchenSink(consumer, MWFBlocks.KITCHEN_SINK_DARK_BAMBOO.get(), Blocks.GRAY_CONCRETE, Blocks.BAMBOO_PLANKS);
+        kitchenSink(consumer, MWFBlocks.KITCHEN_SINK_LIGHT_STRIPPED_BAMBOO.get(), Blocks.WHITE_CONCRETE, Blocks.STRIPPED_BAMBOO_BLOCK);
+        kitchenSink(consumer, MWFBlocks.KITCHEN_SINK_DARK_STRIPPED_BAMBOO.get(), Blocks.GRAY_CONCRETE, Blocks.STRIPPED_BAMBOO_BLOCK);
+        mailBox(consumer, MWFBlocks.MAIL_BOX_BAMBOO.get(), MWFBlocks.UPGRADED_FENCE_BAMBOO.get());
+        mailBox(consumer, MWFBlocks.MAIL_BOX_STRIPPED_BAMBOO.get(), MWFBlocks.UPGRADED_FENCE_STRIPPED_BAMBOO.get());
     }
 
     private static void table(Consumer<FinishedRecipe> recipeConsumer, ItemLike table, ItemLike log, ItemLike planks) {

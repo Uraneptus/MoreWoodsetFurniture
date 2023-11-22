@@ -1,6 +1,8 @@
 {
   "values": [
     "woodset_furniture:cherry_upgraded_gate",
-    "woodset_furniture:stripped_cherry_upgraded_gate"
+    "woodset_furniture:stripped_cherry_upgraded_gate",
+    "woodset_furniture:bamboo_upgraded_gate",
+    "woodset_furniture:stripped_bamboo_upgraded_gate"
   ]
 }

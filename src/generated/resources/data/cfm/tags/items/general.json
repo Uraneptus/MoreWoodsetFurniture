@@ -5,6 +5,12 @@
     "woodset_furniture:cherry_chair",
     "woodset_furniture:stripped_cherry_chair",
     "woodset_furniture:cherry_coffee_table",
-    "woodset_furniture:stripped_cherry_coffee_table"
+    "woodset_furniture:stripped_cherry_coffee_table",
+    "woodset_furniture:bamboo_table",
+    "woodset_furniture:stripped_bamboo_table",
+    "woodset_furniture:bamboo_chair",
+    "woodset_furniture:stripped_bamboo_chair",
+    "woodset_furniture:bamboo_coffee_table",
+    "woodset_furniture:stripped_bamboo_coffee_table"
   ]
 }

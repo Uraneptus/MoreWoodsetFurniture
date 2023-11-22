@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "woodset_furniture:block/bamboo_mail_box",
+            "y": 0
+        },
+        "facing=east": {
+            "model": "woodset_furniture:block/bamboo_mail_box",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "woodset_furniture:block/bamboo_mail_box",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "woodset_furniture:block/bamboo_mail_box",
+            "y": 270
+        }
+    }
+}

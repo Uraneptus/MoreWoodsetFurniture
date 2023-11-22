@@ -7,6 +7,14 @@
     "woodset_furniture:cherry_kitchen_sink_light",
     "woodset_furniture:stripped_cherry_kitchen_sink_light",
     "woodset_furniture:cherry_kitchen_sink_dark",
-    "woodset_furniture:stripped_cherry_kitchen_sink_dark"
+    "woodset_furniture:stripped_cherry_kitchen_sink_dark",
+    "woodset_furniture:bamboo_kitchen_counter",
+    "woodset_furniture:stripped_bamboo_kitchen_counter",
+    "woodset_furniture:bamboo_kitchen_drawer",
+    "woodset_furniture:stripped_bamboo_kitchen_drawer",
+    "woodset_furniture:bamboo_kitchen_sink_light",
+    "woodset_furniture:stripped_bamboo_kitchen_sink_light",
+    "woodset_furniture:bamboo_kitchen_sink_dark",
+    "woodset_furniture:stripped_bamboo_kitchen_sink_dark"
   ]
 }
