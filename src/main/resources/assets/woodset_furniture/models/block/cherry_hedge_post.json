@@ -1,5 +1,6 @@
 {
     "parent": "cfm:block/hedge_post",
+    "render_type": "cutout_mipped",
     "textures": {
         "leaves": "minecraft:block/cherry_leaves"
     }

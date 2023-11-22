@@ -67,12 +67,17 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    maven {
+        name "JEI maven"
+        url = "https://maven.blamejared.com/"
+    }
 }
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
     implementation fg.deobf("curse.maven:cfm-55438:4602980")
+    implementation fg.deobf("mezz.jei:jei-${minecraft_version}-forge:15.2.0.27")
 }
 
 mixin {

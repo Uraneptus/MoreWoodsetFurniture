@@ -1,5 +1,8 @@
-// 1.20.1	2023-11-19T03:49:55.8062947	Tags for minecraft:item mod id woodset_furniture
+// 1.20.1	2023-11-22T17:26:53.2601786	Tags for minecraft:item mod id woodset_furniture
 916c9c2171e1e53b9b17fed944b58e69d55b166e data/cfm/tags/items/bedroom.json
+c6887929ee9648e01b4640941a28cf70fef9c57f data/cfm/tags/items/fences/hedge.json
+90ba9a01de2e3d57b25ba9678a35a14167515539 data/cfm/tags/items/fences/upgraded.json
+3758627e216c7a9bd7d665b87a3e787187cc5a57 data/cfm/tags/items/fence_gates/upgraded.json
 0a8ff1234a0316af193ee9be47fcd315895b53af data/cfm/tags/items/general.json
 63cacd9935f52e6f737744b8d4d8c4622ee55a81 data/cfm/tags/items/kitchen.json
 af7a7b5c7d4fb9e6500d7e5563121c78e2b04ba3 data/cfm/tags/items/outdoors.json

@@ -23,9 +23,7 @@ public class ClientEvents {
     public static void buildTabContents(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             //I cannot put this in the CFM tab because that's very hardcoded
-            MWFBlocks.ITEMLIST.forEach(item -> {
-                event.accept(item.get());
-            });
+            MWFBlocks.ITEMLIST.forEach(event::accept);
         }
     }
 

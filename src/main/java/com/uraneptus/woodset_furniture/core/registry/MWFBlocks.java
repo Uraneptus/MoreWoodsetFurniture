@@ -21,7 +21,7 @@ public class MWFBlocks {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MoreWoodsetFurniture.MODID);
     public static List<RegistryObject<Item>> ITEMLIST = Lists.newArrayList();
 
-    public static final RegistryObject<Block> TABLE_CHERRY = register("cherry_table", () -> new TableBlock(Block.Properties.copy(Blocks.CHERRY_PLANKS)));
+    public static final RegistryObject<Block> TABLE_CHERRY = register("cherry_table", () -> new TableBlock(Block.Properties.copy(Blocks.CHERRY_PLANKS).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> TABLE_STRIPPED_CHERRY = register("stripped_cherry_table", () -> new TableBlock(Block.Properties.copy(Blocks.CHERRY_PLANKS)));
     public static final RegistryObject<Block> CHAIR_CHERRY = register("cherry_chair", () -> new ChairBlock(Block.Properties.copy(Blocks.CHERRY_PLANKS)));
     public static final RegistryObject<Block> CHAIR_STRIPPED_CHERRY = register("stripped_cherry_chair", () -> new ChairBlock(Block.Properties.copy(Blocks.CHERRY_PLANKS)));

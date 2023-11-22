@@ -1,9 +1,7 @@
 package com.uraneptus.woodset_furniture;
 
 import com.uraneptus.woodset_furniture.core.registry.MWFBlocks;
-import com.uraneptus.woodset_furniture.data.MWFBlockTagsProvider;
-import com.uraneptus.woodset_furniture.data.MWFItemTagsProvider;
-import com.uraneptus.woodset_furniture.data.MWFLangProvider;
+import com.uraneptus.woodset_furniture.data.*;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -46,6 +44,8 @@ public class MoreWoodsetFurniture {
         MWFBlockTagsProvider blockTagsProvider = new MWFBlockTagsProvider(packOutput, lookupProvider, fileHelper);
         generator.addProvider(includeServer, blockTagsProvider);
         generator.addProvider(includeServer, new MWFItemTagsProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), fileHelper));
+        generator.addProvider(includeServer, new MWFLootProvider(packOutput));
+        generator.addProvider(includeServer, new MWFRecipeProvider(packOutput));
     }
 
 }

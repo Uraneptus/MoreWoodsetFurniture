@@ -1,1 +1,5 @@
-// 1.20.1	2023-11-19T03:45:52.9865712	Tags for minecraft:block mod id woodset_furniture
+// 1.20.1	2023-11-22T17:26:53.2571752	Tags for minecraft:block mod id woodset_furniture
+c6887929ee9648e01b4640941a28cf70fef9c57f data/cfm/tags/blocks/fences/hedge.json
+90ba9a01de2e3d57b25ba9678a35a14167515539 data/cfm/tags/blocks/fences/upgraded.json
+3758627e216c7a9bd7d665b87a3e787187cc5a57 data/cfm/tags/blocks/fence_gates/upgraded.json
+d98d6c3e396c991c64c9e598c511f295c08a0839 data/minecraft/tags/blocks/mineable/axe.json
