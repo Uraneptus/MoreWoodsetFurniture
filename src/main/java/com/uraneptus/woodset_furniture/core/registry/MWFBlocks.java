@@ -2,6 +2,7 @@ package com.uraneptus.woodset_furniture.core.registry;
 
 import com.mrcrayfish.furniture.block.*;
 import com.uraneptus.woodset_furniture.MoreWoodsetFurniture;
+import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -10,7 +11,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.apache.commons.compress.utils.Lists;
 
 import java.util.List;
 import java.util.function.Supplier;
@@ -19,7 +19,7 @@ import java.util.function.Supplier;
 public class MWFBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MoreWoodsetFurniture.MODID);
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MoreWoodsetFurniture.MODID);
-    public static List<RegistryObject<Item>> ITEMLIST = Lists.newArrayList();
+    public static List<RegistryObject<Item>> ITEMLIST = new ObjectArrayList<>();
 
     //CHERRY
     public static final RegistryObject<Block> TABLE_CHERRY = register("cherry_table", () -> new TableBlock(Block.Properties.copy(Blocks.CHERRY_PLANKS).requiresCorrectToolForDrops()));
